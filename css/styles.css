@@ -402,6 +402,25 @@ border-radius: 30px; */
 
 
 
+.startground5 {
+    position: relative;
+    background-color: #63AFFD;
+    padding: 120px 120px 120px;
+    margin-top: 25px;
+
+    align-items: center;
+
+
+}
+
+.swiper-slide {
+    font-size: 48px;
+    text-align: center;
+    color: #FFF;
+}
+
+
+
 
 
 
