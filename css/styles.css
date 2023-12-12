@@ -20,14 +20,8 @@ body {
 
 
 .logo {
-    /* width: 373px; */
     height: 108px;
     margin-right: 145px;
-
-
-
-    /* filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-border-radius: 30px; */
 }
 
 
@@ -323,6 +317,7 @@ border-radius: 30px; */
     width: 370px;
     margin-right: 40px;
     font-size: 35px;
+    text-align: center;
 
 }
 
@@ -330,12 +325,14 @@ border-radius: 30px; */
     color: #FFF;
     width: 370px;
     font-size: 35px;
+    text-align: center;
     margin-right: 40px;
 }
 
 .text7 {
     color: #FFF;
     width: 370px;
+    text-align: center;
     font-size: 35px;
 }
 
@@ -414,9 +411,82 @@ border-radius: 30px; */
 }
 
 .swiper-slide {
+    
     font-size: 48px;
     text-align: center;
     color: #FFF;
+}
+
+.text10 {
+    font-size: 90px;
+    color: #FFF;
+    text-align: center;
+}
+
+.text11 {
+    color: #FFF;
+    font-size: 96px; 
+}
+.otziv {
+margin-top: 70px ;
+position: relative;
+display: flex;
+margin-bottom:70px;
+}
+
+ .otziv1 {
+ width: 300px;
+ height: 420px;
+ background-color: #FFF;
+ margin-right: 10px ;
+ padding-left: 20px ;
+ padding-top: 25px;
+ }
+
+ .text12 {
+    color: #63AFFD;
+ font-size: 64px;  
+ margin-bottom: 10px;
+ }
+
+.text13 {
+    color: #63AFFD;
+    font-size: 20px;
+    width: 248px;
+    margin-bottom: 15px;
+}
+
+.avatar {
+width: 100px;
+height: 100px;
+border-radius: 999px;
+}
+
+.avatext {
+    position: relative;
+display: flex;
+align-items: center;
+
+}
+
+.avatext1 {
+   margin-left: 20px;
+   color: #63AFFD;
+   font-size: 20px;
+    
+}
+
+.comment {
+    width: 1190px;
+height: 115px;
+border-radius: 30px;
+border:none;
+text-align: center;
+color: #63AFFD;
+font-size: 40px;
+}
+.comment::placeholder {
+    color: #63AFFD;
 }
 
 
@@ -431,87 +501,34 @@ border-radius: 30px; */
 
 
 
-
-
-
-
-
-
-
     .footer {
-
-        display: flex;
-    }
-
-    .startground-footer {
-        position: absolute;
-        left: 0px;
         width: 1440px;
-        height: 252px;
-        flex-shrink: 0;
-        background-color: white;
-
-        top: 5717px;
-
-
+        height: 200px;
+       background-color: #FFF;
+       display: flex;
+       background-color: white;
+   
+       align-items: center;
+   
+       margin: 0 auto;
     }
 
-    .knopka10 {
+    .knopka20 {
         width: 195px;
-        height: 51px;
-        position: absolute;
-        top: 5817px;
-        left: 80px;
-        flex-shrink: 0;
-        background-color: #D9D9D9;
+        height: 50px;
+        font-size: 20px;
+        margin-left: 140px;
+        background-color: #63AFFD;
         border: 0;
-        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-        border-radius: 30px;
-    }
-
-    .knopka11 {
-        width: 195px;
-        height: 51px;
-        position: absolute;
-        top: 5817px;
-        left: 343px;
-        flex-shrink: 0;
-        background-color: #D9D9D9;
-        border: 0;
-        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-        border-radius: 30px;
-    }
-
-    .knopka12 {
-        width: 195px;
-        height: 51px;
-        position: absolute;
-        top: 5817px;
-        left: 606px;
-        flex-shrink: 0;
-        background-color: #D9D9D9;
-        border: 0;
+        color: #FFF;
+        align-items: center;
         filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
         border-radius: 30px;
     }
 
     .logo2 {
-        width: 119px;
-        height: 119px;
-        position: absolute;
-        top: 5783px;
-        left: 869px;
-        background-color: #D9D9D9;
-
-        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-        border-radius: 9999px;
+        height: 108px;
+        margin-left: 140px;
     }
-
-    .text-footer {
-        width: 303px;
-        position: absolute;
-        top: 5783px;
-        left: 1056px;
-        font-weight: bold;
-        font-size: 25px;
-    }
+    
+   
